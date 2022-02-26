@@ -1,0 +1,15 @@
+package ParcialI;
+
+public class Ejecutor {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Ordenes ordenes = new Ordenes();
+        
+        ordenes.pedir_numero();
+        ordenes.menu(0);
+    }
+    
+}
